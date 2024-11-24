@@ -29,19 +29,19 @@ export default function Navbar() {
       </div>
       <div className="my-8 lg:mx-14 flex items-center justify-center gap-5 text-3xl">
         <a
-          href="#"
+          href="https://www.linkedin.com/in/mohamedhamed123/"
           className="inline-flex items-center justify-center text-white p-2 text-2xl rounded-full bg-blue-900 transition-transform duration-500 ease-in-out transform hover:rotate-[360deg] hover:scale-110 hover:drop-shadow-[0_0_10px_rgb(50,120,225)]"
         >
           <FaLinkedin />
         </a>
         <a
-          href="#"
+          href="https://github.com/Passive-coder0"
           className="text-3xl bg-gradient-to-r from-purple-700 via-pink-700 to-red-700 text-white p-1 rounded-full transition-transform duration-500 ease-in-out transform hover:rotate-[360deg] hover:scale-110 hover:drop-shadow-[0_0_10px_rgb(128,55,207)]"
         >
           <FaGithub />
         </a>
         <a
-          href="#"
+          href=""
           className="bg-blue-700 text-4xl rounded-full transition-transform duration-500 ease-in-out transform hover:rotate-[360deg] hover:scale-110 hover:drop-shadow-[0_0_10px_rgb(52,120,226)]"
         >
           <FaFacebook />
