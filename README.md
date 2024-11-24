@@ -1,0 +1,1 @@
+My Awesome portfolio I created using React, TailwindCSS, and Framer Motion. It shows my journey from writing my first line of code to building a full-stack application. The portfolio shows the technologies I've learned, the projects I've developed, and includes my contact details for easy outreach.
