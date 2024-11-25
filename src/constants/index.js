@@ -1,7 +1,7 @@
-import project1 from "/projects/project-1.jpg";
-import project2 from "/projects/project-2.jpg";
-import project3 from "/projects/project-3.jpg";
-import project4 from "/projects/project-4.jpg";
+import project1 from "/projects/NotesApp1.png";
+import project2 from "/projects/WeatherApp.png";
+import project3 from "/projects/Portfolio.png";
+import project4 from "/projects/BattleShip.png";
 
 export const HERO_CONTENT = `I am a passionate junior full stack developer with a strong focus on building dynamic and responsive web applications. My expertise lies in front-end technologies like React and TailwindCSS, alongside back-end technologies like Node.js, Express.js, and MongoDB. I am dedicated to crafting user-friendly solutions that combine functionality with modern design to deliver exceptional user experiences.`;
 
@@ -16,14 +16,14 @@ What I love most about development is bringing ideas to life and creating things
 export const PROJECTS = [
   {
     title: "Task Notes App",
-    image: project2,
+    image: project1,
     description:
       "An Amazing Full-Stack Notes App that helps you organize and write down your ideas and tasks. With a clean, user-friendly design, it keeps everything you need in one place.",
     technologies: ["HTML", "CSS", "React","ExpressJS", "MongoDb"],
   },
   {
     title: "Weather App",
-    image: project1,
+    image: project2,
     description:
       "A weather app that provides real-time weather updates and forecasts for the next few hours. It features a search bar to quickly find weather details for any city.",
     technologies: ["HTML", "CSS", "React", "Weather API"],
