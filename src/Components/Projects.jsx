@@ -23,16 +23,35 @@ export default function Projects() {
             className="m-8 flex flex-wrap lg:justify-center"
           >
             <div className="w-full lg:w-1/4">
-              <img
-                src={project.image}
-                alt={project.title}
-                width={150}
-                height={150}
-                className="mb-6 rounded"
-              />
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <motion.img
+                  src={project.image}
+                  alt={project.title}
+                  width={150}
+                  height={150}
+                  className="mb-6 rounded"
+                  whileHover={{
+                    scale: 1.1,
+                    boxShadow: "0px 0px 20px rgba(72, 61, 139, 0.8)",
+                  }}
+                  transition={{ type: "spring", stiffness: 100 }}
+                />
+              </a>
             </div>
-            <div className="w-full ma-w-xl lg:w-3/4">
-              <h6 className="mb-2 font-semibold">{project.title}</h6>
+            <div className="w-full max-w-xl lg:w-3/4">
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <motion.h6
+                  className="mb-2 font-semibold"
+                  whileHover={{
+                    scale: 1.1,
+                    color: "#8A2BE2", // Changes to a vibrant color on hover
+                    textShadow: "0px 0px 10px rgba(138, 43, 226, 0.8)", // Adds a glowing effect
+                  }}
+                  transition={{ type: "spring", stiffness: 100 }}
+                >
+                  {project.title}
+                </motion.h6>
+              </a>
               <p className="mb-4 text-neutral-400">{project.description}</p>
               {project.technologies.map((tech, index) => (
                 <span

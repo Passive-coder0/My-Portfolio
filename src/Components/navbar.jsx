@@ -43,7 +43,7 @@ export default function Navbar() {
           <FaGithub />
         </a>
         <a
-          href=""
+          href="https://www.facebook.com/"
           className="bg-blue-700 text-4xl rounded-full transition-transform duration-500 ease-in-out transform hover:rotate-[360deg] hover:scale-110 hover:drop-shadow-[0_0_10px_rgb(52,120,226)]"
         >
           <FaFacebook />

@@ -1,7 +1,7 @@
 import project1 from "/projects/NotesApp1.png";
 import project2 from "/projects/WeatherApp.png";
 import project3 from "/projects/Portfolio.png";
-import project4 from "/projects/BattleShip.png";
+import project4 from "/projects/Battleship.png";
 
 export const HERO_CONTENT = `I am a passionate junior full stack developer with a strong focus on building dynamic and responsive web applications. My expertise lies in front-end technologies like React and TailwindCSS, alongside back-end technologies like Node.js, Express.js, and MongoDB. I am dedicated to crafting user-friendly solutions that combine functionality with modern design to deliver exceptional user experiences.`;
 
@@ -16,13 +16,15 @@ What I love most about development is bringing ideas to life and creating things
 export const PROJECTS = [
   {
     title: "Task Notes App",
+    url : "",
     image: project1,
     description:
       "An Amazing Full-Stack Notes App that helps you organize and write down your ideas and tasks. With a clean, user-friendly design, it keeps everything you need in one place.",
-    technologies: ["HTML", "CSS", "React","ExpressJS", "MongoDb"],
+    technologies: ["HTML", "TailwindCSS", "React","ExpressJS", "MongoDb"],
   },
   {
     title: "Weather App",
+    url : "https://weather-app-react-tailwindcss.netlify.app/",
     image: project2,
     description:
       "A weather app that provides real-time weather updates and forecasts for the next few hours. It features a search bar to quickly find weather details for any city.",
@@ -30,6 +32,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    url : "https://mohamed-hamed-portfolio.netlify.app/",
     image: project3,
     description:
       "A personal portfolio website showcasing my projects, frameworks I learned, skills, and my contact information.",
@@ -37,6 +40,7 @@ export const PROJECTS = [
   },
   {
     title: "BattleShip Game",
+    url: "https://battleshipstackgame.netlify.app/",
     image: project4,
     description:
       "Created a classic Battleship game where you can play against the CPU and choose your difficulty level, all powered by JavaScript logic. Currently under development. ",

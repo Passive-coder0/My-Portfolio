@@ -6,9 +6,8 @@ export default function Contact() {
     <div className="border-b border-neutral-900 pb-10">
       <h2 className="my-8 text-center text-4xl">Get in Touch</h2>
       <div className="text-center tracking-tighter">
-        <p className="my-4">{CONTACT.address}</p>
         <p className="my-4 ">{CONTACT.phoneNo}</p>
-        <a href="#" className="border-b ">
+        <a href="" className="border-b ">
           {CONTACT.email}
         </a>
         <div className="flex justify-center items-center my-6 text-5xl gap-6">
