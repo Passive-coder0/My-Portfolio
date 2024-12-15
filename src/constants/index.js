@@ -15,7 +15,7 @@ What I love most about development is bringing ideas to life and creating things
 export const PROJECTS = [
   {
     title: "Task Notes App",
-    url : "",
+    url : "https://fullstacknotesapp.netlify.app/",
     image: project1,
     description:
       "An Amazing Full-Stack Notes App that helps you organize and write down your ideas and tasks. With a clean, user-friendly design, it keeps everything you need in one place.",
