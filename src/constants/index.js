@@ -49,7 +49,6 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Stadium Street ~ Tanta ~ Egypt ",
   phoneNo: "+20 1276 549 536 ",
   email: "icedraft59@gmail.com",
 };

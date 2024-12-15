@@ -7,7 +7,8 @@ export default function About() {
     hidden: { opacity: 0, y: 50 },
     visible: { opacity: 1, y: 0, transition: { duration: 1 } },
   };
-
+  
+  // About Section
   return (
     <motion.div
       className="border-b border-neutral-900 pb-4"
