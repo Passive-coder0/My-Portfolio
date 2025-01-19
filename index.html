@@ -2,13 +2,59 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" href="/react.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio Website</title>
+    <!-- Adding particles.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   </head>
   <body>
     <div id="root"></div>
-    <div></div>
+
+    <!-- Particles.js container -->
+    <div id="particles-js" class="absolute top-0 left-0 w-full h-full -z-10"></div>
+
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Initialize particles.js
+      particlesJS('particles-js', {
+        particles: {
+          number: {
+            value: 50,
+            density: {
+              enable: true,
+              value_area: 800
+            }
+          },
+          shape: {
+            type: 'circle'
+          },
+          opacity: {
+            value: 0.8,
+            random: true
+          },
+          size: {
+            value: 4,
+            random: true
+          },
+          move: {
+            enable: true,
+            speed: 2,
+            direction: 'none',
+            random: true,
+            straight: false,
+            out_mode: 'out',
+            bounce: false
+          }
+        },
+        interactivity: {
+          events: {
+            onclick: {
+              enable: true,
+              mode: 'repulse'
+            }
+          }
+        }
+      });
+    </script>
   </body>
 </html>
