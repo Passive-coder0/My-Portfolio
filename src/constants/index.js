@@ -17,7 +17,7 @@ What I love most about development is bringing ideas to life and creating things
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
-    url : "https://e-commerce-mern-redis.netlify.app/",
+    url : "https://threadsmith.netlify.app",
     image: project1,
     description:
       "A Fully Functional Full-Stack E-Commerce With a clean, user-friendly design. Protected Authentication, Admin Dashboard to add, remove and edit products, with Featured Categories and recommended products.",
@@ -33,7 +33,7 @@ export const PROJECTS = [
   },
   {
     title: "Task Notes App",
-    url : "https://fullstacknotesapp.netlify.app/",
+    url : "https://zennotesapp.netlify.app/",
     image: project3,
     description:
       "An Amazing Full-Stack Notes App that helps you organize and write down your ideas and tasks. With a clean, user-friendly design, it keeps everything you need in one place.",
