@@ -42,8 +42,15 @@ export default function Hero() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <div className="flex justify-center">
-            <img src={profilePic} alt="Profile Picture" />
+          <div className="flex justify-center relative z-10">
+            <div className="relative w-[500px] h-[500px] rounded-xl overflow-hidden">
+              <img 
+                src={profilePic} 
+                alt="Profile Picture" 
+                className="w-full h-full object-fill"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-0 rounded-xl"></div>
+            </div>
           </div>
         </motion.div>
       </div>

@@ -21,7 +21,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A Fully Functional Full-Stack E-Commerce With a clean, user-friendly design. Protected Authentication, Admin Dashboard to add, remove and edit products, with Featured Categories and recommended products.",
-    technologies: ["HTML", "TailwindCSS", "React","ExpressJS", "MongoDb", "Redis", "Cloudinary", "Access Tokens"],
+    technologies: ["HTML", "TailwindCSS", "React","ExpressJS", "MongoDb", "Redis", "Cloudinary", "Auth"],
   },
   {
     title: "AI Plagiarism Detection (Hackathon Finalist)",
@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "An Amazing Full-Stack Notes App that helps you organize and write down your ideas and tasks. With a clean, user-friendly design, it keeps everything you need in one place.",
-    technologies: ["HTML", "TailwindCSS", "React","NodeJs","ExpressJS", "MongoDb", "Access Tokens"],
+    technologies: ["HTML", "TailwindCSS", "React","NodeJs","ExpressJS", "MongoDb", "Auth"],
   },
   {
     title: "Weather App",
