@@ -1,9 +1,9 @@
-import Hero from "./Components/Hero";
+import Hero from "./Components/Hero.jsx";
 import About from "./Components/About.jsx";
-import Technology from "./Components/Technology";
-import Navbar from "./Components/Navbar";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Technology from "./Components/Technology.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import Projects from "./Components/Projects.jsx";
+import Contact from "./Components/Contact.jsx";
 
 export default function App() {
   return (
