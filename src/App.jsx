@@ -1,5 +1,5 @@
 import Hero from "./Components/Hero";
-import About from "./Components/About";
+import About from "./Components/About.jsx";
 import Technology from "./Components/Technology";
 import Navbar from "./Components/Navbar";
 import Projects from "./Components/Projects";
